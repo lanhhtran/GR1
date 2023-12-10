@@ -1,7 +1,7 @@
 # GR1
 Tran Thi Lan Anh 20215180
 # ESP32
-This source code includes introductory exercises with esp32.
+This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard
 # Example
 ```
 /**
