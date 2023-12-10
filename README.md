@@ -25,3 +25,18 @@ void loop() {
   delay(2000);
 }
 ```
+```
+/**
+ * This example flashing led by esp32
+ */
+void setup() {
+    pinMode(2, OUTPUT);
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(2,HIGH);
+  delay(1000);
+  digitalWrite(2,LOW);
+   delay(1000);
+ }
+```
