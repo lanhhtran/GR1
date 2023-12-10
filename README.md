@@ -1,8 +1,9 @@
 # GR1
 Tran Thi Lan Anh 20215180
 # ESP32
-This source code includes introductory exercises to helloworld with esp32.
+This source code includes introductory exercises with esp32.
 # Example
+```
 /**
  * This example turns the ESP32 into a Bluetooth LE mouse that scrolls down every 2 seconds.
  */
@@ -23,3 +24,4 @@ void loop() {
   }
   delay(2000);
 }
+```
