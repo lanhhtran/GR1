@@ -5,7 +5,6 @@ Preferences preferences;
 void setup() {
   Serial.begin(115200);
   Serial.println();
-
   // Open Preferences with my-app namespace. Each application module, library, etc
   // has to use a namespace name to prevent key name collisions. We will open storage in
   // RW-mode (second parameter has to be false).
