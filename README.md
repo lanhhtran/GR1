@@ -3,7 +3,7 @@ Tran Thi Lan Anh 20215180
 # Introduction for ESP 32
 ![ESP32 supermini](https://github.com/lanhhtran/GR1/assets/117920786/23f3ab52-4368-4660-9157-a7627f85872f)
 
-The ESP32 is a series of chip microcontrollers developed by Espressif.
+ESP32 is a low-cost System on Chip (SoC) Microcontroller from Espressif Systems, the developers of the famous ESP8266 SoC. It is a successor to ESP8266 SoC and comes in both single-core and dual-core variations of the Tensilica's 32-bit Xtensa LX6 Microprocessor with integrated Wi-Fi and Bluetooth.
 # ESP32
 This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard
 # Example
