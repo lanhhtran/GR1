@@ -25,11 +25,12 @@ void loop() {
 ```
 
 ![led](https://github.com/lanhhtran/GR1/assets/117920786/57444b8c-7938-4ff9-af70-113bd5e123a5)
-# Example
+# Bluetooth Mouse
 ```cpp
 /**
  * This example turns the ESP32 into a Bluetooth LE mouse that scrolls down every 2 seconds.
  */
+//This code allows you to make the ESP32 act as a Bluetooth Mouse and control what it does. E.g. move the mouse, scroll, make a click etc
 #include <BleMouse.h>
 
 BleMouse bleMouse;
@@ -48,3 +49,4 @@ void loop() {
   delay(2000);
 }
 ```
+![mouse](https://github.com/lanhhtran/GR1/assets/117920786/cb7c3c04-086c-44d5-9826-209994fce075)
