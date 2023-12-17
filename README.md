@@ -7,6 +7,7 @@ ESP32 is a low-cost System on Chip (SoC) Microcontroller from Espressif Systems,
 
 **This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard**
 # Hello world
+This code simply puts the HIGH and LOW values on pin 2 respectively, and the light will flash according to the signal.
 ```cpp
 /**
  * This example flashing led by esp32
@@ -20,17 +21,16 @@ void loop() {
   delay(1000);
   digitalWrite(2,LOW);
    delay(1000);
-  //This code simply puts the HIGH and LOW values on pin 2 respectively, and the light will flash according to the signal.
  }
 ```
 
 ![led](https://github.com/lanhhtran/GR1/assets/117920786/57444b8c-7938-4ff9-af70-113bd5e123a5)
 # Bluetooth Mouse
+This code allows you to make the ESP32 act as a Bluetooth Mouse and control what it does. E.g. move the mouse, scroll, make a click etc
 ```cpp
 /**
  * This example turns the ESP32 into a Bluetooth LE mouse that scrolls down every 2 seconds.
  */
-//This code allows you to make the ESP32 act as a Bluetooth Mouse and control what it does. E.g. move the mouse, scroll, make a click etc
 #include <BleMouse.h>
 
 BleMouse bleMouse;
