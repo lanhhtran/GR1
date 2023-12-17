@@ -1,7 +1,7 @@
 # GR1
 Tran Thi Lan Anh 20215180
 # Introduction for ESP 32
-![esp32 supermini](https://imgur.com/WlM67La)
+![esp32 supermini](https://imgur.com/WlM67La/esp32.PNG)
 # ESP32
 This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard
 # Example
