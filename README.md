@@ -50,3 +50,25 @@ void loop() {
 }
 ```
 ![mouse](https://github.com/lanhhtran/GR1/assets/117920786/cb7c3c04-086c-44d5-9826-209994fce075)
+# Vibration motor
+To vibrate the motor, we simply apply 1/0 voltage to one pin.
+```cpp
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(2, OUTPUT);
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(2, HIGH);
+  delay(2000);
+  digitalWrite(2, LOW);
+  delay(600);
+  digitalWrite(2, HIGH);
+  delay(2000);
+  digitalWrite(2, LOW);
+  delay(600);
+
+  delay(5000);
+}
+```
+![vibr](https://github.com/lanhhtran/GR1/assets/117920786/fd279ca3-4b45-44be-9892-6e8773253c75)
