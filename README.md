@@ -4,8 +4,26 @@ Tran Thi Lan Anh 20215180
 ![ESP32 supermini](https://github.com/lanhhtran/GR1/assets/117920786/23f3ab52-4368-4660-9157-a7627f85872f)
 
 ESP32 is a low-cost System on Chip (SoC) Microcontroller from Espressif Systems, the developers of the famous ESP8266 SoC. It is a successor to ESP8266 SoC and comes in both single-core and dual-core variations of the Tensilica's 32-bit Xtensa LX6 Microprocessor with integrated Wi-Fi and Bluetooth.
-# ESP32
-This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard
+**This source code allows you to make the ESP32 flashing lights, vibrating the motor and act as a Bluetooth Mouse and keyboard**
+# Hello world
+```cpp
+/**
+ * This example flashing led by esp32
+ */
+void setup() {
+    pinMode(2, OUTPUT);
+}
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(2,HIGH);
+  delay(1000);
+  digitalWrite(2,LOW);
+   delay(1000);
+ }
+```
+This code simply puts the HIGH and LOW values on pin 2 respectively, and the light
+will flash according to the signal.
+![led](https://github.com/lanhhtran/GR1/assets/117920786/57444b8c-7938-4ff9-af70-113bd5e123a5)
 # Example
 ```cpp
 /**
@@ -28,19 +46,4 @@ void loop() {
   }
   delay(2000);
 }
-```
-```cpp
-/**
- * This example flashing led by esp32
- */
-void setup() {
-    pinMode(2, OUTPUT);
-}
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(2,HIGH);
-  delay(1000);
-  digitalWrite(2,LOW);
-   delay(1000);
- }
 ```
